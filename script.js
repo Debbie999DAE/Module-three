@@ -16,7 +16,7 @@ function howmanytimesvoted(userScore,passGoal){
 }
 
 if ( userScore < passGoal ) {
-  return ( ""you have not met the threshold"" + userScore + "stay engaged"  );
+  return ( "you have not met the threshold" + userScore + "stay engaged"  );
 } else {
   return(  " Glad you are here! Welcome!); 
 }
@@ -28,6 +28,10 @@ firstNumber = 10;
 secondNumber = 5;
 result = firstNumber + secondNumber;
 alert( result);
+/* here is the missing logical operator*/
+
+if x > 5 and y < 10:
+  print("Both conditions are true.")
 
 var message = howmanytimesvoted(  2, 10);
 alert( message);

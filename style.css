@@ -1,4 +1,40 @@
 html {
-  height: 100%;
-  width: 100%;
-}   color
+  height: 10%;
+  width: 90%;
+} 
+
+/* changed the background color so the links can be seen, when they were in blue they blended in
+body{
+  
+  background-color: white;
+    color: red;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+/* This is an example of a compound selector */
+/* section div {
+    color: red;
+} */
+
+/* Classes are reusable */
+.red {
+    color: red;
+}
+
+/* Id's can be used only once per page */
+#myMainHeading {
+    font-size: 100px;
+    text-align: center;
+    color: hotpink;
+    border: 10px groove white;
+    border-radius: 10px;
+    display: block;
+}
+/* here is the div* from third html page */ 
+div {
+    color: yellow;
+}
+}
